@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Flexbox2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        nav {
+            flex: 1;
+            display: flex;
+            background-color: pink;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .content {
+            flex: 6;
+
+        }
+
+        header {
+            background-color: khaki;
+            height: 15vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content_isi {
+            display: flex;
+        }
+
+        article {
+            background-color: #ffffff;
+            flex: 4;
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        aside {
+            background-color: aqua;
+            display: flex;
+            flex: 1;
+            height: 70vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer {
+            background-color: khaki;
+            height: 15vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <nav>
+            NAVBAR
+        </nav>
+        <section class="content">
+            <header>
+                HEADER
+            </header>
+            <section class="content_isi">
+                <article>
+                    ARTICLE
+                </article>
+                <aside>
+                    ASIDE
+                </aside>
+            </section>
+            <footer>
+                FOOTER
+            </footer>
+        </section>
+    </section>
+</body>
+
+</html>

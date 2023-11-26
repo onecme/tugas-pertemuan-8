@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Flexbox2</title>
+    <style>
+        * {
+            background-color: pink;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgb(174, 255, 228);
+            height: 10vh;
+            margin: 5vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            display: flex;
+        }
+
+        aside {
+            background-color: rgba(35, 213, 154, 0.753);
+            height: 60vh;
+            flex: 1;
+            margin-left: 5vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        article {
+            background-color: rgb(249, 112, 112);
+            height: 60vh;
+            flex: 4;
+            margin: 0 5vh;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex-direction: column;
+
+
+        }
+
+        footer {
+            background-color: rgb(174, 255, 228);
+            height: 10vh;
+            margin: 5vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        div {
+            margin-top: 10px;
+            background-color: rgb(249, 112, 112);
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+        }
+
+        img {
+            width: 20%;
+            display: flex;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        HEADER
+    </header>
+    <section class="content">
+        <aside>
+            ASIDE
+        </aside>
+        <article>
+            ARTICLE
+            <div>
+
+                <img src="assets/images/mina-twice.jpg" alt="mina-twice">
+                <img src="assets/images/momo-twice.jpg" alt="momo-twice">
+                <img src="assets/images/sana-twice.jpg" alt="sana-twice">
+            </div>
+
+        </article>
+    </section>
+    <footer>
+        FOOTER
+    </footer>
+
+</body>
+
+</html>

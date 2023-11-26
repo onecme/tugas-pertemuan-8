@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header,footer{
+    height: 20vh;
+    background-color: khaki;
+}
+.content{
+    height: 60vh;
+    display: flex;
+}
+article{
+    flex-grow: 4;
+}
+aside{
+    background-color: pink;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    background-color: aqua;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
